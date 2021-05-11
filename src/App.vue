@@ -1,21 +1,13 @@
 <template>
   <div id="app">
-    <Box />
     <img alt="Vue logo" src="./assets/logo.png" />
-    <Img />
   </div>
 </template>
 
 <script>
-import Box from "./components/box.vue";
-import Img from "./components/img.vue";
-
 export default {
   name: "App",
-  components: {
-    Box,
-    Img,
-  },
+  components: {},
 };
 </script>
 
